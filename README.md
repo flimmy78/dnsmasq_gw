@@ -12,4 +12,4 @@ ipset=/google.com/vpn:ppp0    /* google.com 的域名走ppp0 网卡出去 */
 
 在不修改dnsmasq 的源代码的前提下，也可以用小脚本完成。如：
 
-for ip in `ipset list | awk 'NR>6'`;do ip route add $ip dev ppp0;done
+for ip in \`ipset list | awk 'NR>6'\`;do ip route add $ip dev ppp0;done
