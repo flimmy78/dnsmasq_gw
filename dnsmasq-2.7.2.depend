@@ -1,0 +1,1010 @@
+# depslib dependency file v1.0
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/dnet_ntop.c
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<netinet/in.h>
+	"utils.h"
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/utils.h
+	<sys/types.h>
+	<asm/types.h>
+	<resolv.h>
+	<stdlib.h>
+	"libnetlink.h"
+	"ll_map.h"
+	"rtm_map.h"
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/libnetlink.h
+	<stdio.h>
+	<string.h>
+	<asm/types.h>
+	<linux/netlink.h>
+	<linux/rtnetlink.h>
+	<linux/if_link.h>
+	<linux/if_addr.h>
+	<linux/neighbour.h>
+	<linux/netconf.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/netlink.h
+	<linux/kernel.h>
+	<linux/socket.h>
+	<linux/types.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/socket.h
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/types.h
+	<asm/types.h>
+	<linux/posix_types.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/rtnetlink.h
+	<linux/types.h>
+	<linux/netlink.h>
+	<linux/if_link.h>
+	<linux/if_addr.h>
+	<linux/neighbour.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/if_link.h
+	<linux/types.h>
+	<linux/netlink.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/if_addr.h
+	<linux/types.h>
+	<linux/netlink.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/neighbour.h
+	<linux/types.h>
+	<linux/netlink.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/netconf.h
+	<linux/types.h>
+	<linux/netlink.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/ll_map.h
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/rtm_map.h
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/dnet_pton.c
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<netinet/in.h>
+	"utils.h"
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/inet_proto.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<string.h>
+	"rt_names.h"
+	"utils.h"
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/rt_names.h
+	<asm/types.h>
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/ipx_ntop.c
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	"utils.h"
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/ipx_pton.c
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	"utils.h"
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/libgenl.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<linux/genetlink.h>
+	"libgenl.h"
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/genetlink.h
+	<linux/types.h>
+	<linux/netlink.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/libgenl.h
+	"libnetlink.h"
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/libnetlink.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<net/if_arp.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<string.h>
+	<errno.h>
+	<time.h>
+	<sys/uio.h>
+	"libnetlink.h"
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/ll_addr.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/socket.h>
+	<sys/ioctl.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<string.h>
+	<linux/netdevice.h>
+	<linux/if_arp.h>
+	<linux/sockios.h>
+	"rt_names.h"
+	"utils.h"
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/netdevice.h
+	<linux/if.h>
+	<linux/if_ether.h>
+	<linux/if_packet.h>
+	<linux/if_link.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/if.h
+	<linux/types.h>
+	<linux/socket.h>
+	<linux/hdlc/ioctl.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/hdlc/ioctl.h
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/if_ether.h
+	<linux/types.h>
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/if_arp.h
+	<linux/netdevice.h>
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/ll_map.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<string.h>
+	<net/if.h>
+	"libnetlink.h"
+	"ll_map.h"
+	"hlist.h"
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/hlist.h
+	<stddef.h>
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/ll_proto.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/socket.h>
+	<sys/ioctl.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<string.h>
+	<linux/netdevice.h>
+	<linux/if_arp.h>
+	<linux/sockios.h>
+	"utils.h"
+	"rt_names.h"
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/ll_types.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/socket.h>
+	<sys/ioctl.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<string.h>
+	<linux/netdevice.h>
+	<linux/if_arp.h>
+	<linux/sockios.h>
+	"rt_names.h"
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/rt_names.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<string.h>
+	<sys/time.h>
+	<sys/socket.h>
+	<asm/types.h>
+	<linux/rtnetlink.h>
+	"rt_names.h"
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/lib/utils.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<limits.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<string.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<asm/types.h>
+	<linux/pkt_sched.h>
+	<linux/param.h>
+	<time.h>
+	<sys/time.h>
+	<errno.h>
+	"utils.h"
+
+1385169033 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/linux/pkt_sched.h
+	<linux/types.h>
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/auth.c
+	"dnsmasq.h"
+
+1416570190 /home/yjdwbj/My-project/dnsmasq-2.7.2/src/dnsmasq.h
+	<features.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<getopt.h>
+	"config.h"
+	"ip6addr.h"
+	"dns-protocol.h"
+	"dhcp-protocol.h"
+	"dhcp6-protocol.h"
+	"radv-protocol.h"
+	<libintl.h>
+	<locale.h>
+	<arpa/inet.h>
+	<sys/stat.h>
+	<sys/ioctl.h>
+	<sys/sockio.h>
+	<sys/select.h>
+	<sys/wait.h>
+	<sys/time.h>
+	<sys/un.h>
+	<limits.h>
+	<net/if.h>
+	<unistd.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<fcntl.h>
+	<ctype.h>
+	<signal.h>
+	<stddef.h>
+	<time.h>
+	<errno.h>
+	<pwd.h>
+	<grp.h>
+	<stdarg.h>
+	<netinet/if_ether.h>
+	<net/ethernet.h>
+	<net/if_arp.h>
+	<netinet/in_systm.h>
+	<netinet/ip.h>
+	<netinet/ip_icmp.h>
+	<sys/uio.h>
+	<syslog.h>
+	<dirent.h>
+	<net/if_dl.h>
+	<linux/capability.h>
+	<sys/prctl.h>
+	<priv.h>
+
+1416564988 /home/yjdwbj/My-project/dnsmasq-2.7.2/src/config.h
+
+1411506975 /home/yjdwbj/My-project/dnsmasq-2.7.2/src/ip6addr.h
+
+1411506975 /home/yjdwbj/My-project/dnsmasq-2.7.2/src/dns-protocol.h
+
+1411506975 /home/yjdwbj/My-project/dnsmasq-2.7.2/src/dhcp-protocol.h
+
+1411506975 /home/yjdwbj/My-project/dnsmasq-2.7.2/src/dhcp6-protocol.h
+
+1411506975 /home/yjdwbj/My-project/dnsmasq-2.7.2/src/radv-protocol.h
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/blockdata.c
+	"dnsmasq.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/bpf.c
+	"dnsmasq.h"
+	<ifaddrs.h>
+	<sys/param.h>
+	<sys/sysctl.h>
+	<net/if.h>
+	<net/route.h>
+	<net/if_dl.h>
+	<netinet/if_ether.h>
+	<net/if_var.h>
+	<netinet/in_var.h>
+	<netinet6/in6_var.h>
+	<net/bpf.h>
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/cache.c
+	"dnsmasq.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/conntrack.c
+	"dnsmasq.h"
+	<libnetfilter_conntrack/libnetfilter_conntrack.h>
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/dbus.c
+	"dnsmasq.h"
+	<dbus/dbus.h>
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/dhcp-common.c
+	"dnsmasq.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/dhcp.c
+	"dnsmasq.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/dhcp6.c
+	"dnsmasq.h"
+	<netinet/icmp6.h>
+
+1416562728 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/dnsmasq.c
+	"dnsmasq.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/dnssec.c
+	"dnsmasq.h"
+	<nettle/rsa.h>
+	<nettle/dsa.h>
+	<nettle/ecdsa.h>
+	<nettle/ecc-curve.h>
+	<nettle/nettle-meta.h>
+	<nettle/bignum.h>
+	<nettle/dsa-compat.h>
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/domain.c
+	"dnsmasq.h"
+
+1416575725 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/forward.c
+	"dnsmasq.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/helper.c
+	"dnsmasq.h"
+	<lua.h>
+	<lualib.h>
+	<lauxlib.h>
+
+1416574110 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/ipset.c
+	"dnsmasq.h"
+	"ip_common.h"
+	<string.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/utsname.h>
+	<arpa/inet.h>
+	<linux/version.h>
+	<linux/netlink.h>
+
+1416560958 /home/yjdwbj/My-project/dnsmasq-2.7.2/include/ip_common.h
+	"linux/rtnetlink.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/lease.c
+	"dnsmasq.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/log.c
+	"dnsmasq.h"
+	<android/log.h>
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/loop.c
+	"dnsmasq.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/netlink.c
+	"dnsmasq.h"
+	<linux/types.h>
+	<linux/netlink.h>
+	<linux/rtnetlink.h>
+	<linux/if_addr.h>
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/network.c
+	"dnsmasq.h"
+	<zone.h>
+	<alloca.h>
+
+1416570358 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/option.c
+	"dnsmasq.h"
+	<setjmp.h>
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/outpacket.c
+	"dnsmasq.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/radv.c
+	"dnsmasq.h"
+	<netinet/icmp6.h>
+
+1416575954 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/rfc1035.c
+	"dnsmasq.h"
+	<linux/ethtool.h>
+	<linux/sockios.h>
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/rfc2131.c
+	"dnsmasq.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/rfc3315.c
+	"dnsmasq.h"
+
+1385169033 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/rtm_map.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<string.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	"rt_names.h"
+	"utils.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/slaac.c
+	"dnsmasq.h"
+	<netinet/icmp6.h>
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/tables.c
+	"dnsmasq.h"
+	<sys/types.h>
+	<sys/ioctl.h>
+	<net/if.h>
+	<netinet/in.h>
+	<net/pfvar.h>
+	<err.h>
+	<errno.h>
+	<fcntl.h>
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/tftp.c
+	"dnsmasq.h"
+
+1411506975 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/util.c
+	"dnsmasq.h"
+	<sys/times.h>
+	<idna.h>
+
+1416565147 source:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<string.h>
+	<time.h>
+	<sys/time.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<arpa/inet.h>
+	<linux/in_route.h>
+	<errno.h>
+	"rt_names.h"
+	"utils.h"
+	"ip_common.h"
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/dnet_ntop.c
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<netinet/in.h>
+	"utils.h"
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/utils.h
+	<sys/types.h>
+	<asm/types.h>
+	<resolv.h>
+	<stdlib.h>
+	"libnetlink.h"
+	"ll_map.h"
+	"rtm_map.h"
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/libnetlink.h
+	<stdio.h>
+	<string.h>
+	<asm/types.h>
+	<linux/netlink.h>
+	<linux/rtnetlink.h>
+	<linux/if_link.h>
+	<linux/if_addr.h>
+	<linux/neighbour.h>
+	<linux/netconf.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/netlink.h
+	<linux/kernel.h>
+	<linux/socket.h>
+	<linux/types.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/socket.h
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/types.h
+	<asm/types.h>
+	<linux/posix_types.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/rtnetlink.h
+	<linux/types.h>
+	<linux/netlink.h>
+	<linux/if_link.h>
+	<linux/if_addr.h>
+	<linux/neighbour.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/if_link.h
+	<linux/types.h>
+	<linux/netlink.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/if_addr.h
+	<linux/types.h>
+	<linux/netlink.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/neighbour.h
+	<linux/types.h>
+	<linux/netlink.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/netconf.h
+	<linux/types.h>
+	<linux/netlink.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/ll_map.h
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/rtm_map.h
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/dnet_pton.c
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<netinet/in.h>
+	"utils.h"
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/inet_proto.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netdb.h>
+	<string.h>
+	"rt_names.h"
+	"utils.h"
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/rt_names.h
+	<asm/types.h>
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/ipx_ntop.c
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	"utils.h"
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/ipx_pton.c
+	<errno.h>
+	<string.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	"utils.h"
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/libgenl.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<linux/genetlink.h>
+	"libgenl.h"
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/genetlink.h
+	<linux/types.h>
+	<linux/netlink.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/libgenl.h
+	"libnetlink.h"
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/libnetlink.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<net/if_arp.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<string.h>
+	<errno.h>
+	<time.h>
+	<sys/uio.h>
+	"libnetlink.h"
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/ll_addr.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/socket.h>
+	<sys/ioctl.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<string.h>
+	<linux/netdevice.h>
+	<linux/if_arp.h>
+	<linux/sockios.h>
+	"rt_names.h"
+	"utils.h"
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/netdevice.h
+	<linux/if.h>
+	<linux/if_ether.h>
+	<linux/if_packet.h>
+	<linux/if_link.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/if.h
+	<linux/types.h>
+	<linux/socket.h>
+	<linux/hdlc/ioctl.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/hdlc/ioctl.h
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/if_ether.h
+	<linux/types.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/if_arp.h
+	<linux/netdevice.h>
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/ll_map.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<string.h>
+	<net/if.h>
+	"libnetlink.h"
+	"ll_map.h"
+	"hlist.h"
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/hlist.h
+	<stddef.h>
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/ll_proto.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/socket.h>
+	<sys/ioctl.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<string.h>
+	<linux/netdevice.h>
+	<linux/if_arp.h>
+	<linux/sockios.h>
+	"utils.h"
+	"rt_names.h"
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/ll_types.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<sys/ioctl.h>
+	<sys/socket.h>
+	<sys/ioctl.h>
+	<netinet/in.h>
+	<arpa/inet.h>
+	<string.h>
+	<linux/netdevice.h>
+	<linux/if_arp.h>
+	<linux/sockios.h>
+	"rt_names.h"
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/rt_names.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<string.h>
+	<sys/time.h>
+	<sys/socket.h>
+	<asm/types.h>
+	<linux/rtnetlink.h>
+	"rt_names.h"
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/lib/utils.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<limits.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<string.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<asm/types.h>
+	<linux/pkt_sched.h>
+	<linux/param.h>
+	<time.h>
+	<sys/time.h>
+	<errno.h>
+	"utils.h"
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/pkt_sched.h
+	<linux/types.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/auth.c
+	"dnsmasq.h"
+
+1416586538 /home/michael/Downloads/dnsmasq-2.7.2/src/dnsmasq.h
+	<features.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<getopt.h>
+	"config.h"
+	"ip6addr.h"
+	"dns-protocol.h"
+	"dhcp-protocol.h"
+	"dhcp6-protocol.h"
+	"radv-protocol.h"
+	<libintl.h>
+	<locale.h>
+	<arpa/inet.h>
+	<sys/stat.h>
+	<sys/ioctl.h>
+	<sys/sockio.h>
+	<sys/select.h>
+	<sys/wait.h>
+	<sys/time.h>
+	<sys/un.h>
+	<limits.h>
+	<net/if.h>
+	<unistd.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<fcntl.h>
+	<ctype.h>
+	<signal.h>
+	<stddef.h>
+	<time.h>
+	<errno.h>
+	<pwd.h>
+	<grp.h>
+	<stdarg.h>
+	<netinet/if_ether.h>
+	<net/ethernet.h>
+	<net/if_arp.h>
+	<netinet/in_systm.h>
+	<netinet/ip.h>
+	<netinet/ip_icmp.h>
+	<sys/uio.h>
+	<syslog.h>
+	<dirent.h>
+	<net/if_dl.h>
+	<linux/capability.h>
+	<sys/prctl.h>
+	<priv.h>
+
+1416564988 /home/michael/Downloads/dnsmasq-2.7.2/src/config.h
+
+1411506975 /home/michael/Downloads/dnsmasq-2.7.2/src/ip6addr.h
+
+1411506975 /home/michael/Downloads/dnsmasq-2.7.2/src/dns-protocol.h
+
+1411506975 /home/michael/Downloads/dnsmasq-2.7.2/src/dhcp-protocol.h
+
+1411506975 /home/michael/Downloads/dnsmasq-2.7.2/src/dhcp6-protocol.h
+
+1411506975 /home/michael/Downloads/dnsmasq-2.7.2/src/radv-protocol.h
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/blockdata.c
+	"dnsmasq.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/bpf.c
+	"dnsmasq.h"
+	<ifaddrs.h>
+	<sys/param.h>
+	<sys/sysctl.h>
+	<net/if.h>
+	<net/route.h>
+	<net/if_dl.h>
+	<netinet/if_ether.h>
+	<net/if_var.h>
+	<netinet/in_var.h>
+	<netinet6/in6_var.h>
+	<net/bpf.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/cache.c
+	"dnsmasq.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/conntrack.c
+	"dnsmasq.h"
+	<libnetfilter_conntrack/libnetfilter_conntrack.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/dbus.c
+	"dnsmasq.h"
+	<dbus/dbus.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/dhcp-common.c
+	"dnsmasq.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/dhcp.c
+	"dnsmasq.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/dhcp6.c
+	"dnsmasq.h"
+	<netinet/icmp6.h>
+
+1416562728 source:/home/michael/Downloads/dnsmasq-2.7.2/src/dnsmasq.c
+	"dnsmasq.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/dnssec.c
+	"dnsmasq.h"
+	<nettle/rsa.h>
+	<nettle/dsa.h>
+	<nettle/ecdsa.h>
+	<nettle/ecc-curve.h>
+	<nettle/nettle-meta.h>
+	<nettle/bignum.h>
+	<nettle/dsa-compat.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/domain.c
+	"dnsmasq.h"
+
+1416586538 source:/home/michael/Downloads/dnsmasq-2.7.2/src/forward.c
+	"dnsmasq.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/helper.c
+	"dnsmasq.h"
+	<lua.h>
+	<lualib.h>
+	<lauxlib.h>
+
+1416565147 source:/home/michael/Downloads/dnsmasq-2.7.2/src/iproute.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<string.h>
+	<time.h>
+	<sys/time.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	<netinet/ip.h>
+	<arpa/inet.h>
+	<linux/in_route.h>
+	<errno.h>
+	"rt_names.h"
+	"utils.h"
+	"ip_common.h"
+
+1416560958 /home/michael/Downloads/dnsmasq-2.7.2/include/ip_common.h
+	"linux/rtnetlink.h"
+
+1416574110 source:/home/michael/Downloads/dnsmasq-2.7.2/src/ipset.c
+	"dnsmasq.h"
+	"ip_common.h"
+	<string.h>
+	<errno.h>
+	<sys/types.h>
+	<sys/socket.h>
+	<sys/utsname.h>
+	<arpa/inet.h>
+	<linux/version.h>
+	<linux/netlink.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/lease.c
+	"dnsmasq.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/log.c
+	"dnsmasq.h"
+	<android/log.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/loop.c
+	"dnsmasq.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/netlink.c
+	"dnsmasq.h"
+	<linux/types.h>
+	<linux/netlink.h>
+	<linux/rtnetlink.h>
+	<linux/if_addr.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/network.c
+	"dnsmasq.h"
+	<zone.h>
+	<alloca.h>
+
+1416629741 source:/home/michael/Downloads/dnsmasq-2.7.2/src/option.c
+	"dnsmasq.h"
+	<setjmp.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/outpacket.c
+	"dnsmasq.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/radv.c
+	"dnsmasq.h"
+	<netinet/icmp6.h>
+
+1416628895 source:/home/michael/Downloads/dnsmasq-2.7.2/src/rfc1035.c
+	"dnsmasq.h"
+	<linux/ethtool.h>
+	<linux/sockios.h>
+	<linux/if_tun.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/rfc2131.c
+	"dnsmasq.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/rfc3315.c
+	"dnsmasq.h"
+
+1385169033 source:/home/michael/Downloads/dnsmasq-2.7.2/src/rtm_map.c
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	<syslog.h>
+	<fcntl.h>
+	<string.h>
+	<sys/socket.h>
+	<netinet/in.h>
+	"rt_names.h"
+	"utils.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/slaac.c
+	"dnsmasq.h"
+	<netinet/icmp6.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/tables.c
+	"dnsmasq.h"
+	<sys/types.h>
+	<sys/ioctl.h>
+	<net/if.h>
+	<netinet/in.h>
+	<net/pfvar.h>
+	<err.h>
+	<errno.h>
+	<fcntl.h>
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/tftp.c
+	"dnsmasq.h"
+
+1411506975 source:/home/michael/Downloads/dnsmasq-2.7.2/src/util.c
+	"dnsmasq.h"
+	<sys/times.h>
+	<idna.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/if_tun.h
+	<linux/types.h>
+	<linux/if_ether.h>
+	<linux/filter.h>
+
+1385169033 /home/michael/Downloads/dnsmasq-2.7.2/include/linux/filter.h
+	<linux/types.h>
+

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="dnsmasq-2.7.2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/dnsmasq" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters=" -C /etc/dnsmasq.conf  -d" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/dnsmasq" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="/home/yjdwbj/My-project/dnsmasq-2.7.2/" />
+				</Linker>
+			</Target>
+			<Target title="all">
+				<Option output="src/dnsmasq" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters=" -C /etc/dnsmasq.conf" />
+				<Option host_application="src/dnsmasq" />
+				<Option run_host_application_in_terminal="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option='-DVERSION=&apos;&quot;2.72&quot;&apos;' />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="libutil.a" />
+					<Add library="libnetlink.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="include" />
+			<Add directory="include/linux" />
+		</Compiler>
+		<Linker>
+			<Add directory="include" />
+		</Linker>
+		<Unit filename="Makefile" />
+		<Unit filename="include/SNAPSHOT.h" />
+		<Unit filename="include/dlfcn.h" />
+		<Unit filename="include/hlist.h" />
+		<Unit filename="include/ip6tables.h" />
+		<Unit filename="include/iptables.h" />
+		<Unit filename="include/iptables_common.h" />
+		<Unit filename="include/libgenl.h" />
+		<Unit filename="include/libiptc/ipt_kernel_headers.h" />
+		<Unit filename="include/libiptc/libip6tc.h" />
+		<Unit filename="include/libiptc/libiptc.h" />
+		<Unit filename="include/libnetlink.h" />
+		<Unit filename="include/linux/atm.h" />
+		<Unit filename="include/linux/atmapi.h" />
+		<Unit filename="include/linux/atmioc.h" />
+		<Unit filename="include/linux/atmsap.h" />
+		<Unit filename="include/linux/can.h" />
+		<Unit filename="include/linux/can/netlink.h" />
+		<Unit filename="include/linux/fib_rules.h" />
+		<Unit filename="include/linux/filter.h" />
+		<Unit filename="include/linux/gen_stats.h" />
+		<Unit filename="include/linux/genetlink.h" />
+		<Unit filename="include/linux/hdlc/ioctl.h" />
+		<Unit filename="include/linux/if.h" />
+		<Unit filename="include/linux/if_addr.h" />
+		<Unit filename="include/linux/if_addrlabel.h" />
+		<Unit filename="include/linux/if_arp.h" />
+		<Unit filename="include/linux/if_bridge.h" />
+		<Unit filename="include/linux/if_ether.h" />
+		<Unit filename="include/linux/if_link.h" />
+		<Unit filename="include/linux/if_tun.h" />
+		<Unit filename="include/linux/if_tunnel.h" />
+		<Unit filename="include/linux/if_vlan.h" />
+		<Unit filename="include/linux/inet_diag.h" />
+		<Unit filename="include/linux/ip6_tunnel.h" />
+		<Unit filename="include/linux/l2tp.h" />
+		<Unit filename="include/linux/neighbour.h" />
+		<Unit filename="include/linux/netconf.h" />
+		<Unit filename="include/linux/netdevice.h" />
+		<Unit filename="include/linux/netfilter.h" />
+		<Unit filename="include/linux/netfilter/x_tables.h" />
+		<Unit filename="include/linux/netfilter/xt_tcpudp.h" />
+		<Unit filename="include/linux/netfilter_ipv4.h" />
+		<Unit filename="include/linux/netfilter_ipv4/ip_tables.h" />
+		<Unit filename="include/linux/netlink.h" />
+		<Unit filename="include/linux/netlink_diag.h" />
+		<Unit filename="include/linux/packet_diag.h" />
+		<Unit filename="include/linux/pkt_cls.h" />
+		<Unit filename="include/linux/pkt_sched.h" />
+		<Unit filename="include/linux/rtnetlink.h" />
+		<Unit filename="include/linux/sock_diag.h" />
+		<Unit filename="include/linux/socket.h" />
+		<Unit filename="include/linux/tc_act/tc_csum.h" />
+		<Unit filename="include/linux/tc_act/tc_defact.h" />
+		<Unit filename="include/linux/tc_act/tc_gact.h" />
+		<Unit filename="include/linux/tc_act/tc_ipt.h" />
+		<Unit filename="include/linux/tc_act/tc_mirred.h" />
+		<Unit filename="include/linux/tc_act/tc_nat.h" />
+		<Unit filename="include/linux/tc_act/tc_pedit.h" />
+		<Unit filename="include/linux/tc_act/tc_skbedit.h" />
+		<Unit filename="include/linux/tc_ematch/tc_em_cmp.h" />
+		<Unit filename="include/linux/tc_ematch/tc_em_meta.h" />
+		<Unit filename="include/linux/tc_ematch/tc_em_nbyte.h" />
+		<Unit filename="include/linux/tc_ematch/tc_em_text.h" />
+		<Unit filename="include/linux/tcp.h" />
+		<Unit filename="include/linux/tcp_metrics.h" />
+		<Unit filename="include/linux/types.h" />
+		<Unit filename="include/linux/unix_diag.h" />
+		<Unit filename="include/linux/veth.h" />
+		<Unit filename="include/linux/xfrm.h" />
+		<Unit filename="include/ll_map.h" />
+		<Unit filename="include/netinet/tcp.h" />
+		<Unit filename="include/rt_names.h" />
+		<Unit filename="include/rtm_map.h" />
+		<Unit filename="include/utils.h" />
+		<Unit filename="include/xt-internal.h" />
+		<Unit filename="lib/dnet_ntop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/dnet_pton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/inet_proto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/ipx_ntop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/ipx_pton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/libgenl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/libnetlink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/ll_addr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/ll_map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/ll_proto.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/ll_types.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/rt_names.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/auth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/blockdata.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bpf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/config.h" />
+		<Unit filename="src/conntrack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dbus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dhcp-common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dhcp-protocol.h" />
+		<Unit filename="src/dhcp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dhcp6-protocol.h" />
+		<Unit filename="src/dhcp6.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dns-protocol.h" />
+		<Unit filename="src/dnsmasq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/dnsmasq.h" />
+		<Unit filename="src/dnssec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/domain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/forward.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/helper.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ip6addr.h" />
+		<Unit filename="src/iproute.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ipset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lease.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/loop.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/netlink.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/network.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/option.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/outpacket.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/radv-protocol.h" />
+		<Unit filename="src/radv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rfc1035.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rfc2131.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rfc3315.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/rtm_map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/slaac.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tables.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tftp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<envvars />
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

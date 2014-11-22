@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>dnsmasq-2.7.2 build log</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+<body>
+<tt>
+Build started on: <u>21-11-2014 at 15:50.00</u><br />
+Build ended on: <u>21-11-2014 at 15:50.00</u><p />
+<b>-------------- Build: all in dnsmasq-2.7.2 (compiler: GNU GCC Compiler)---------------</b><br />
+make -f Makefile all<br />
+make[1]: Entering directory '/home/yjdwbj/My-project/dnsmasq-2.7.2/src'<br />
+cc  -o dnsmasq cache.o rfc1035.o util.o option.o forward.o network.o dnsmasq.o dhcp.o lease.o rfc2131.o netlink.o dbus.o bpf.o helper.o tftp.o log.o conntrack.o dhcp6.o rfc3315.o dhcp-common.o outpacket.o radv.o slaac.o auth.o iproute.o ipset.o domain.o dnssec.o blockdata.o tables.o loop.o -L./ -lnetlink -lutil <br />
+iproute.o: In function `flush_update':<br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:122: undefined reference to `rth'</font><br />
+iproute.o: In function `print_route':<br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:326: undefined reference to `rth'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:326: undefined reference to `rth'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:329: undefined reference to `show_stats'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:584: undefined reference to `_SL_'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:336: undefined reference to `rtnl_rtntype_n2a'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:503: undefined reference to `show_stats'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:445: undefined reference to `_SL_'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:476: undefined reference to `show_stats'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:498: undefined reference to `_SL_'</font><br />
+iproute.o: In function `restore_handler':<br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1546: undefined reference to `rth'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1548: undefined reference to `rth'</font><br />
+iproute.o: In function `iproute_modify':<br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:731: undefined reference to `preferred_family'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1029: undefined reference to `rth'</font><br />
+iproute.o: In function `parse_one_nh':<br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:664: undefined reference to `get_rt_realms'</font><br />
+iproute.o: In function `iproute_modify':<br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:923: undefined reference to `get_rt_realms'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:961: undefined reference to `rtnl_rtntype_a2n'</font><br />
+iproute.o: In function `iproute_list_flush_or_save':<br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1129: undefined reference to `preferred_family'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1356: undefined reference to `rth'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1367: undefined reference to `rth'</font><br />
+iproute.o: In function `rtnl_rtcache_request':<br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1055: undefined reference to `rth'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1051: undefined reference to `rth'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1051: undefined reference to `rth'</font><br />
+<font color="#ff0000">iproute.o:/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1051: more undefined references to `rth' follow</font><br />
+iproute.o: In function `iproute_list_flush_or_save':<br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1307: undefined reference to `show_stats'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1319: undefined reference to `rth'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1324: undefined reference to `rth'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1348: undefined reference to `show_stats'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1329: undefined reference to `show_stats'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1204: undefined reference to `rtnl_rtntype_a2n'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1227: undefined reference to `get_rt_realms'</font><br />
+iproute.o: In function `iproute_get':<br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1397: undefined reference to `preferred_family'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1486: undefined reference to `rth'</font><br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/src/iproute.c:1527: undefined reference to `rth'</font><br />
+.//libutil.a(utils.o): In function `format_host':<br />
+<font color="#ff0000">utils.c:(.text+0xf69): undefined reference to `resolve_hosts'</font><br />
+collect2: error: ld returned 1 exit status<br />
+make[1]: *** [dnsmasq] Error 1<br />
+make: *** [all] Error 2<br />
+<font color="#ff0000">/home/yjdwbj/My-project/dnsmasq-2.7.2/Makefile:153: recipe for target 'dnsmasq' failed</font><br />
+make[1]: Leaving directory '/home/yjdwbj/My-project/dnsmasq-2.7.2/src'<br />
+<font color="#ff0000">Makefile:78: recipe for target 'all' failed</font><br />
+<font color="#a00000">Process terminated with status 2 (0 minutes, 0 seconds)</font><br />
+<font color="#a00000">37 errors, 0 warnings (0 minutes, 0 seconds)</font><br />
+</tt>
+</body>
+</html>
